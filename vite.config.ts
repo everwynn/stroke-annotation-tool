@@ -7,6 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/stroke-annotation-tool/', // 仓库名称
   plugins: [
     vue(),
     vueDevTools(),
